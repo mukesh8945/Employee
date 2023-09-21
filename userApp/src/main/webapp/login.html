@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .Bolo-pilu {
+            font-size: 20px;
+            text-align: center;
+            color: red;
+            text-decoration: underline;
+        }
+        
+        #register-form {
+            margin: auto;
+        }
+        
+        #register-form tr td,
+        input,
+        select,
+        textarea {
+            font-size: 25px;
+            color: rgba(46, 11, 243, 0.91);
+        }
+        
+        #register-form input,
+        select,
+        textarea {
+            width: 70%;
+            color: rgb(160, 39, 65);
+        }
+        
+        #register-form {
+            border: 2px solid black;
+            padding: 30px;
+            background: rgb(197, 245, 6);
+        }
+    </style>
+</head>
+
+
+<body bgcolor="yellow" text="red">
+    <form action="login" method="post">
+        <h1 class="Bolo-pilu">Student Login:</h1>
+        <table id="register-form">
+            <tr>
+                <td>UserName:</td>
+                <td><input type="text" placeholder="Enter UserName:" name="uname"><br></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" placeholder="Enter Password:" name="pword"><br></td>
+            </tr>
+            <tr>
+                <th>
+                    <input type="submit" value="Login" style="border-radius: 25px; cursor: pointer;">
+
+                </th>
+                <th>
+                    <a href="register.html" style="margin-right: 400px;">NewUser?</a>
+
+                </th>
+
+
+            </tr>
+
+        </table>
+
+
+
+    </form>
+
+
+</body>
+
+</html>

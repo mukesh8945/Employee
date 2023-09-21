@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <style>
+        .Bolo-pilu {
+            font-size: 20px;
+            text-align: center;
+            color: red;
+            text-decoration: underline;
+        }
+        
+        #register-form {
+            margin: auto;
+        }
+        
+        #register-form tr td,
+        input,
+        select,
+        textarea {
+            font-size: 20px;
+            color: rgba(243, 11, 11, 0.91);
+        }
+        
+        #register-form input,
+        select,
+        textarea {
+            width: 80%;
+            color: rgb(67, 160, 39);
+        }
+        
+        #register-form {
+            border: 2px solid black;
+            padding: 25px;
+            background: rgb(197, 245, 6);
+        }
+    </style>
+</head>
+
+<body bgcolor="white">
+    
+        <h1 class="Bolo-pilu">Please give your personal Information:</h1>
+        <form action="reg" method="post">
+            <table id="register-form">
+                <tr>
+                    <td>
+                        UserName:
+                    </td>
+                    <td><input type="text" placeholder="Enter UserName:" name="uname"> </td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" placeholder="Enter Password:" name="pword"> </td>
+                </tr>
+                <tr>
+                    <td>FirstName:</td>
+                    <td><input type="text" placeholder="Enter FirstName:" name="fname"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" placeholder="Enter Lname:" name="lname"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" placeholder="Enter Address:" name="addr"></td>
+                </tr>
+                <tr>
+                    <td>MailId::</td>
+                    <td><input type="text" placeholder="Enter MailId:" name="mid"></td>
+                </tr>
+                <tr>
+                    <td>PhoneNo::</td>
+                    <td><input type="text" placeholder="Enter PhoneNo:" name="phno"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Register" style="cursor: pointer; color: rgb(0, 4, 255); width: 90px;">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+    
+</body>
+
+</html>
